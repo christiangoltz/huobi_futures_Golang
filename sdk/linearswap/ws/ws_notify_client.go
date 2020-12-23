@@ -3,11 +3,12 @@
 import (
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	"huobi_futures_Golang/sdk/linearswap/ws/response/notify"
-	"huobi_futures_Golang/sdk/wsbase"
 	"reflect"
 	"strings"
+
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap"
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws/response/notify"
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/wsbase"
 )
 
 type WSNotifyClient struct {

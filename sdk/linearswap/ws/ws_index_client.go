@@ -3,10 +3,11 @@
 import (
 	"encoding/json"
 	"fmt"
-	"huobi_futures_Golang/sdk/linearswap"
-	"huobi_futures_Golang/sdk/linearswap/ws/response/index"
-	"huobi_futures_Golang/sdk/wsbase"
 	"reflect"
+
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap"
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws/response/index"
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/wsbase"
 )
 
 type WSIndexClient struct {

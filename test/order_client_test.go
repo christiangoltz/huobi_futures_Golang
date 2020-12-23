@@ -1,10 +1,11 @@
 package test
 
 import (
-	"huobi_futures_Golang/sdk/linearswap/restful"
-	requestorder "huobi_futures_Golang/sdk/linearswap/restful/request/order"
-	responseorder "huobi_futures_Golang/sdk/linearswap/restful/response/order"
 	"testing"
+
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful"
+	requestorder "github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful/request/order"
+	responseorder "github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful/response/order"
 )
 
 var odClient restful.OrderClient

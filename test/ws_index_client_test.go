@@ -1,10 +1,11 @@
 package test
 
 import (
-	"huobi_futures_Golang/sdk/linearswap/ws"
-	"huobi_futures_Golang/sdk/linearswap/ws/response/index"
 	"testing"
 	"time"
+
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws"
+	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws/response/index"
 )
 
 var wsixClient *ws.WSIndexClient
