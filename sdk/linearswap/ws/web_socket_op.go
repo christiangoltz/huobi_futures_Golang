@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/log"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/reqbuilder"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/wsbase"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap"
+	"github.com/christiangoltz/huobi_futures_go/sdk/log"
+	"github.com/christiangoltz/huobi_futures_go/sdk/reqbuilder"
+	"github.com/christiangoltz/huobi_futures_go/sdk/wsbase"
 
 	"github.com/gorilla/websocket"
 )

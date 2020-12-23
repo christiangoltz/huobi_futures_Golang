@@ -3,9 +3,9 @@
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws/response/market"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/wsbase"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/ws/response/market"
+	"github.com/christiangoltz/huobi_futures_go/sdk/wsbase"
 	"reflect"
 )
 

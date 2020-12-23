@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful/response/market"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/restful"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/restful/response/market"
 )
 
 var mkClient restful.MarketClient

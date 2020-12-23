@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful"
-	requestorder "github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful/request/order"
-	responseorder "github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/restful/response/order"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/restful"
+	requestorder "github.com/christiangoltz/huobi_futures_go/sdk/linearswap/restful/request/order"
+	responseorder "github.com/christiangoltz/huobi_futures_go/sdk/linearswap/restful/response/order"
 )
 
 var odClient restful.OrderClient

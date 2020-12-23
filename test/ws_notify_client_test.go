@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws"
-	"github.com/christiangoltz/huobi_futures_Golang/sdk/linearswap/ws/response/notify"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/ws"
+	"github.com/christiangoltz/huobi_futures_go/sdk/linearswap/ws/response/notify"
 )
 
 var wsnfClient *ws.WSNotifyClient
